@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Nyandega Roofing Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            padding: 10px 20px;
+            background: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #218838;
+        }
+        .hidden {
+            display: none;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        function showRoofTypes() {
+            document.getElementById('roofTypes').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Michael Nyandega Roofing Platform</h1>
+        <p>Order high-quality roofs with ease.</p>
+        <button onclick="showRoofTypes()">Order Now</button>
+        
+        <div id="roofTypes" class="hidden">
+            <h2>Types of Roofs Offered:</h2>
+            <ul>
+                <li>S Tile</li>
+                <li>Versatile</li>
+                <li>Corrugated</li>
+                <li>Rolltop</li>
+            </ul>
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> 0713720383</p>
+            <p><strong>Email:</strong> michaelnyandega@gmail.com</p>
+            <p><strong>WhatsApp:</strong> 0713720383</p>
+            <p><strong>Location:</strong> Superior Roofing Solution Kisumu K</p>
+        </div>
+    </div>
+</body>
+</html>
